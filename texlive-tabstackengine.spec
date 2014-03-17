@@ -1,16 +1,17 @@
-# revision 32944
+# revision 33006
 # category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
+# catalog-ctan /macros/latex/contrib/tabstackengine
+# catalog-date 2014-02-19 18:36:09 +0100
+# catalog-license lppl
+# catalog-version 1.10
 Name:		texlive-tabstackengine
-Version:	20140214
+Epoch:		1
+Version:	1.10
 Release:	1
-Summary:	TeXLive tabstackengine package
+Summary:	"Tabbing" front-end to stackengine
 Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tabstackengine
+License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabstackengine.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabstackengine.doc.tar.xz
 BuildArch:	noarch
@@ -19,7 +20,13 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-TeXLive tabstackengine package.
+The package provides a front end to the stackengine package, to
+allow tabbed stacking. In most cases, an existing stackengine
+command may be prepended with the word "tabbed", "align" or
+"tabular" to create a new tabbed version of a stacking macro.
+In addition, hooks in the package's parser, that tabbed strings
+of data may be parsed, extracted and reconstituted (not
+requiring use of any stacking constructions).
 
 %post
     %{_sbindir}/texlive.post
