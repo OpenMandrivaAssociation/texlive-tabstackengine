@@ -7,7 +7,7 @@
 Name:		texlive-tabstackengine
 Epoch:		1
 Version:	1.10
-Release:	4
+Release:	5
 Summary:	"Tabbing" front-end to stackengine
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tabstackengine
