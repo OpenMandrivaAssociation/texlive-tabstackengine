@@ -6,8 +6,8 @@
 # catalog-version 1.10
 Name:		texlive-tabstackengine
 Epoch:		1
-Version:	1.10
-Release:	5
+Version:	2.01
+Release:	1
 Summary:	"Tabbing" front-end to stackengine
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tabstackengine
