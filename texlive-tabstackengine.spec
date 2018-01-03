@@ -1,9 +1,3 @@
-# revision 33006
-# category Package
-# catalog-ctan /macros/latex/contrib/tabstackengine
-# catalog-date 2014-02-19 18:36:09 +0100
-# catalog-license lppl
-# catalog-version 1.10
 Name:		texlive-tabstackengine
 Epoch:		1
 Version:	2.01
@@ -38,10 +32,8 @@ requiring use of any stacking constructions).
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/tabstackengine/tabstackengine.sty
-%doc %{_texmfdistdir}/doc/latex/tabstackengine/README
-%doc %{_texmfdistdir}/doc/latex/tabstackengine/tabstackengine.pdf
-%doc %{_texmfdistdir}/doc/latex/tabstackengine/tabstackengine.tex
+%{_texmfdistdir}/tex/latex/tabstackengine
+%doc %{_texmfdistdir}/doc/latex/tabstackengine
 
 #-----------------------------------------------------------------------
 %prep
