@@ -1,6 +1,6 @@
 Name:		texlive-tabstackengine
 Epoch:		1
-Version:	2.01
+Version:	2.10
 Release:	1
 Summary:	"Tabbing" front-end to stackengine
 Group:		Publishing
