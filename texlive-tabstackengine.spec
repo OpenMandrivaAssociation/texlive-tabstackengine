@@ -1,13 +1,13 @@
 Name:		texlive-tabstackengine
 Epoch:		1
-Version:	2.10
-Release:	2
+Version:	46848
+Release:	1
 Summary:	"Tabbing" front-end to stackengine
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tabstackengine
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabstackengine.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabstackengine.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabstackengine.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabstackengine.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +23,12 @@ of data may be parsed, extracted and reconstituted (not
 requiring use of any stacking constructions).
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -37,7 +37,7 @@ requiring use of any stacking constructions).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
