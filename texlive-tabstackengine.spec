@@ -4,7 +4,7 @@ Version:	46848
 Release:	2
 Summary:	"Tabbing" front-end to stackengine
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tabstackengine
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/tabstackengine
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabstackengine.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabstackengine.doc.r%{version}.tar.xz
